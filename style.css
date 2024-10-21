@@ -1,18 +1,16 @@
-/* Custom font imports */
 @import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
 
-/* General styles for the whole page */
+/* General page styles */ 
 body {
-    background-color: rgb(236, 216, 255);
-    font-family: "Shadows Into Light", cursive;
+    background-color: rgb(221, 184, 255);
+    font-family: "Shadows Into Light", serif;
+}
+p {
+    color: orchid;
 }
 
-h2 {
-    background-color: white;
-    color: rebeccapurple;
+/* TIP: put images in <div class='centered'> container in your HTML document */
+.centered {
+    text-align: center;
+    margin: auto;
 }
-
-img {
-    border-radius: 10px;
-}
-
